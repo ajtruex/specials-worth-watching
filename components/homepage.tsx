@@ -46,6 +46,7 @@ export default function HomePage() {
               className="w-auto h-auto rounded-xl overflow-hidden"
               height="720"
               src="/liveinaustin.jpg"
+              priority
               width="1280"
               quality={100}
               style={
