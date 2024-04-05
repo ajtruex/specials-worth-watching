@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Specials Worth Watching",
   description:
     "Specials Worth Watching is a website that showcases comedy specials worth watching",
-    icons: {
+  icons: {
     icon: "/favicon.ico",
     apple: [
       { url: "/apple-touch-icon.png", sizes: "180x180" },
