@@ -73,7 +73,7 @@ export default function HomePage() {
       </section>
       <section className="my-6 px-4">
         <h2 className="text-2xl font-bold mb-4">Most Popular</h2>
-        {/* <Carousel>
+        <Carousel>
           <CarouselContent>
             <CarouselItem className="basis-1/3">
               <Link href="/specials/hat-trick">
@@ -156,8 +156,8 @@ export default function HomePage() {
           </CarouselContent>
           <CarouselPrevious className="text-white" />
           <CarouselNext className="text-white" />
-        </Carousel> */}
-        <div className="grid grid-cols-3 gap-4">
+        </Carousel>
+        {/* <div className="grid grid-cols-3 gap-4">
           <div className="rounded overflow-hidden">
             <Link href="/specials/hat-trick">
               <Image
@@ -213,7 +213,7 @@ export default function HomePage() {
               </div>
             </Link>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="my-6 px-4">
         <h2 className="text-2xl font-bold mb-4">Recent</h2>
