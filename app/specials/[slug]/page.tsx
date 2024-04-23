@@ -12,7 +12,7 @@ const SpecialPage = ({ params }: { params: { slug: string } }) => {
 
   return (
     <div className="max-w-7xl mx-auto">
-      <nav className="flex justify-between p-4">
+      {/* <nav className="flex justify-between p-4">
         <div className="flex space-x-4">
           <Link className="text-lg font-semibold" href="/">
             Home
@@ -27,7 +27,7 @@ const SpecialPage = ({ params }: { params: { slug: string } }) => {
         <div className="w-1/4">
           <Input placeholder="Search" type="search" />
         </div>
-      </nav>
+      </nav> */}
       <Link href={special.url}>
         <div className="flex justify-center mt-10 mb-6">
           <Image

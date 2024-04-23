@@ -12,31 +12,39 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Icon from "@/components/ui/icon"
+import logo from "@/public/mic.png"
+// import { MainNav } from "./main-nav"
 
 export default function HomePage() {
   return (
-    <div
-      className="
-      max-w-7xl
-      mx-auto
-    "
-    >
-      <nav className="flex justify-between p-4">
-        <div className="flex space-x-4">
-          <Link className="text-lg font-semibold" href="/">
-            Home
-          </Link>
-          <Link className="text-lg font-semibold" href="/specials">
-            Specials
-          </Link>
-          <Link className="text-lg font-semibold" href="#">
-            Comedians
-          </Link>
+    <div className="max-w-7xl mx-auto">
+      {/* <nav className="flex justify-between">
+        <div className="flex flex-row space-x-4">
+          <Image
+            alt="Mic Logo"
+            height={100}
+            src={logo}
+            width={100}
+            // className="w-auto h-auto"
+          />
+
+          <div className="flex space-x-4 items-center">
+            <Link className="text-lg font-semibold" href="/">
+              Home
+            </Link>
+            <Link className="text-lg font-semibold" href="/specials">
+              Specials
+            </Link>
+            <Link className="text-lg font-semibold" href="#">
+              Comedians
+            </Link>
+          </div>
         </div>
-        <div className="w-1/4">
+        <div className="w-1/4 my-auto">
           <Input placeholder="Search" type="search" />
         </div>
-      </nav>
+      </nav> */}
       <section className="my-6 px-4">
         <h2 className="text-2xl font-bold mb-4">Featured</h2>
         <div className="rounded overflow-hidden mb-6 flex justify-center items-center flex-col">

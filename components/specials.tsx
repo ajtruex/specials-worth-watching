@@ -55,7 +55,7 @@ export const specials = [
 export function Specials() {
   return (
     <div className="max-w-7xl mx-auto">
-      <nav className="flex justify-between p-4">
+      {/* <nav className="flex justify-between p-4">
         <div className="flex space-x-4">
           <Link className="text-lg font-semibold" href="/">
             Home
@@ -70,7 +70,7 @@ export function Specials() {
         <div className="w-1/4">
           <Input placeholder="Search" type="search" />
         </div>
-      </nav>
+      </nav> */}
       <h2 className="text-2xl font-bold justify-start items-start max-w-7xl mx-auto p-4">
         Specials
       </h2>
