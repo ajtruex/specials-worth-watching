@@ -25,6 +25,7 @@ export function MainNav({ className, ...props }) {
           height={100}
           src={logo}
           width={100}
+          priority
           // className="w-auto h-auto"
         />
         <div className="flex space-x-4 items-center">
