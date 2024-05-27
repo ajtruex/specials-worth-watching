@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/carousel"
 import Icon from "@/components/ui/icon"
 import logo from "@/public/mic.png"
+
 // import { MainNav } from "./main-nav"
 
 export default function HomePage() {
@@ -81,6 +82,7 @@ export default function HomePage() {
       </section>
       <section className="my-6 px-4">
         <h2 className="text-2xl font-bold mb-4">Most Popular</h2>
+
         <Carousel>
           <CarouselContent>
             <CarouselItem className="basis-1/3">
